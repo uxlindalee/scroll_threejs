@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+#three-canvas {
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+h1 {
+  position: fixed;
+  left: 5vw;
+  top: 0;
+  z-index: 2;
+  font-size: 3vmin;
+  color:#1D3557;
+}
+.sections {
+	position: relative;
+	z-index: 1;
+}
+.section {
+	box-sizing: border-box;
+	padding: 5rem;
+	height: 100vh;
+}
+.section h2 {
+	margin: 0;
+	font-size: 10vmin;
+}
+.section:nth-child(even) {
+	text-align: right;
+}
